@@ -18,5 +18,4 @@ if __name__ == '__main__':
         if uno.in_waiting > 0:
             data = uno.readline().decode('utf-8').rstrip()
             client.publish("pi/bci-data", data)
-
-    client.loop_stop()
+            print(data)

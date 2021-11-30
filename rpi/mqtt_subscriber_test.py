@@ -3,7 +3,6 @@ import time
 
 def on_connect(client, userdata, flags, rc):
     print("Connected to server with result code " + str(rc))
-
     client.subscribe("pi/bci-data")
 
 def on_message(client, userdata, msg):
@@ -17,4 +16,4 @@ if __name__ == '__main__':
     client.loop_start()
 
     while True:
-        time.sleep(1)
+        pass
