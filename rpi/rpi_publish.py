@@ -19,3 +19,4 @@ if __name__ == '__main__':
             data = uno.readline().decode('utf-8').rstrip()
             client.publish("pi/bci-data", data)
             print(data)
+        time.sleep(1)
