@@ -7,7 +7,7 @@ def on_connect(client, userdata, flags, rc):
     client.message_callback_add("pi/brainwaves", brainwaves_callback)
 
 def brainwaves_callback(client, userdata, message):
-    print("VM: " + str(message.payload, "utf-8"))
+    print("Data: " + str(message.payload, "utf-8"))
 
 def on_message(client, userdata, msg):
     print(str(msg.payload, "utf-8"))
