@@ -1,5 +1,6 @@
 import paho.mqtt.client as mqtt
 from influxdb import InfluxDBClient
+import datetime
 import time
 
 INFLUXDB_ADDRESS = 'localhost'
@@ -43,13 +44,13 @@ def brainwaves_callback(client, userdata, message):
                 'fields': {
                     "error": data.split(',')[0],
                     "attention": data.split(',')[1],
-                    "meditation": _meditation(',')[2]
+                    "meditation": data.split(',')[2]
                     }
                 }
             ]
 
     print(json_body)
-    client.write_points(json_body)
+    influx_client.write_points(json_body)
 
 def on_message(client, userdata, msg):
     print(str(msg.payload, "utf-8"))
