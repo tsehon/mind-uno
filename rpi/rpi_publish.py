@@ -15,7 +15,7 @@ if __name__ == '__main__':
     client = mqtt.Client()
     client.on_connect = on_connect
     client.connect(host="68.181.32.115", port=11000, keepalive=60)
-    client.loop_forever()
+    client.loop_start()
 
     while True:
         if uno.in_waiting > 0:
