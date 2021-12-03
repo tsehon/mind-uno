@@ -6,8 +6,8 @@ import time
 uno = serial.Serial('/dev/ttyACM0', 9600, timeout=1)
 uno.reset_input_buffer()
 
+#Callback code that checks if client receives a CONNACK response from the server, otherwise print out a failure message with result code
 def on_connect(client, userdata, flags, rc):
-    #Checks if client receives a CONNACK response from the server, otherwise print out a failure message with result code
     if rc == 0:
         print("Broker connection successful")
     else:
