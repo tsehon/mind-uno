@@ -1,8 +1,8 @@
-#import modules
 import serial
 import paho.mqtt.client as mqtt
 import time
 
+# initialize the ArduinoUno serial object on RaspberryPi
 uno = serial.Serial('/dev/ttyACM0', 9600, timeout=1)
 uno.reset_input_buffer()
 
@@ -26,7 +26,7 @@ if __name__ == '__main__':
     #starts loop to have paho-mqtt create a separate thread to handle incoming and outgoing mqtt messages
     client.loop_start()
 
-    #publishes and prints messages of data retrieved
+    #publishes and prints messages of data retrieved when data is available from the Uno
     while True:
         if uno.in_waiting > 0:
             data = uno.readline().decode('utf-8').rstrip()
