@@ -1,7 +1,7 @@
-# EE250 Final Project - Brainwave Reader
+# EE250 Final Project - MindUno: An IoT System to Collect and Visualize Brianwave Data
 ### Team Members: 
 Tyler Sehon, Victor Muljo
-### **Demo Link:**
+### **Demo Link:** https://youtu.be/WmdiULjeZes
 
 ## **Instructions to run code:**
 
