@@ -1,7 +1,7 @@
 # EE250 Final Project - MindUno: An IoT System to Collect and Visualize Brianwave Data
 ### Team Members: 
 Tyler Sehon, Victor Muljo
-### **Demo Link:** https://youtu.be/WmdiULjeZes
+### **Demo Link:** https://drive.google.com/file/d/1gvVWAInyaOYTnaAPWKdwba9XMVyLUbCn/view?usp=sharing
 
 ## **Instructions to run code:**
 
