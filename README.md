@@ -21,3 +21,4 @@ Tyler Sehon, Victor Muljo
 - [time](https://docs.python.org/3/library/time.html)
 - [datetime](https://docs.python.org/3/library/datetime.html#module-datetime)
 - [InfluxDB Client](https://github.com/influxdata/influxdb-python)
+- [Arduino Brain Library](https://github.com/kitschpatrol/Brain.git)
