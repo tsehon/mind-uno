@@ -1,6 +1,6 @@
 # EE250 Final Project - Brainwave Reader
-**Team Members: Tyler Sehon, Victor Muljo**
-**Demo Link:**
+### **Team Members: Tyler Sehon, Victor Muljo**
+### **Demo Link:**
 
 ## **Instructions to run code:**
 
