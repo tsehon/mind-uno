@@ -1,7 +1,6 @@
 # MindUno: An IoT System to Collect and Visualize Brianwave Data
 ### Contributors: 
 Tyler Sehon, Victor Muljo
-### **Demo Link:** https://drive.google.com/file/d/1gvVWAInyaOYTnaAPWKdwba9XMVyLUbCn/view?usp=sharing
 
 ## **Brief Description and Motivation:**
 
@@ -25,3 +24,6 @@ Throughout the process of completing this project, our most consistent limitatio
 - [datetime](https://docs.python.org/3/library/datetime.html#module-datetime)
 - [InfluxDB Client](https://github.com/influxdata/influxdb-python)
 - [Arduino Brain Library](https://github.com/kitschpatrol/Brain.git)
+
+### **Demo:** https://drive.google.com/file/d/1gvVWAInyaOYTnaAPWKdwba9XMVyLUbCn/view?usp=sharing
+
